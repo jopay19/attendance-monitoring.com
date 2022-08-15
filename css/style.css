@@ -1,0 +1,292 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+h1{
+    text-align: center;
+    color:#28792f;
+    -webkit-text-stroke-width: thin;
+     background: rgb(32, 28, 28);
+     border-radius: 15px;
+   }
+   h1:hover{
+    background-color: rgb(7, 14, 10);
+    transition: all 1s ease;
+   }
+body{
+    font-family: "ARIAL";
+}
+table{
+border: 1px solid rgb(99, 1, 1);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #5e574afa;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+}
+
+tr:nth-child(even){
+background-color: #0d4e7952;
+}
+form{
+   background-color:4px solid rgb(32, 13, 13);
+}
+
+/* this is css for Login page */
+
+.login-container{
+        margin: 0 auto;
+        width: 30%;
+        margin-top:10vh;
+}
+
+
+
+.form-element{
+        width: 100%;
+
+}
+.form-element label{
+    display: block;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.form-element input[type="text"],
+.form-element input[type="password"]{
+
+font-size: 22px;
+width:100%;
+padding:10px;
+border:3px solid #ccc;
+border-radius: 5px;
+color: #888888;
+
+}
+.login-container button{
+    width: 100%;
+    letter-spacing: 6px;
+    border-radius:15px;
+    margin-top:2rem;
+    font-size: 32px;
+    padding: 1rem;
+    background-color: #a5987f;
+        border: none;
+      color: white;
+    cursor: pointer;
+     
+}
+.login-container button:hover{
+    background-color: rgb(136, 247, 187);
+    transition: all 0.5s ease;
+     
+}
+.login-container{
+    background-color: #556155;
+    border: 1px solid #11898d;
+    border-radius: 10px;
+    height: auto;
+    padding: 2rem;
+    box-shadow: 5px 6px #899bc5;
+}
+#formlogin{
+            background-color: #FFE5B4;    
+}
+
+.form-logo{
+    width:10px;
+    height: 150;
+    text-align: center;
+}
+.login-container h2{
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke-width: thin;
+    color: #c6dbc6;
+}
+
+label{
+    text-align: center;
+}
+
+/*Error Message*/
+.message {
+    width: 100%;
+    padding: 1rem;
+    font-size: 25px;
+}
+   .message.warning {
+    background: #c2171754;
+     border-left: 6px solid #5516128e;
+     color: #fafadc;
+     font-family: bold;
+   }
+
+   .message.success {
+    background-color: #313131;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+   #bgform{
+        background-color: #FFE5B4;    
+}
+   
+   .message.info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    background: #248baa;
+    border-left: 6px solid #06589b;
+    color: #721010;
+   }
+
+   .wrapper{
+       padding: 0 10rem 0 10rem;
+   }
+   /* end message */
+
+
+   .search-container{
+    width: 40%;
+    padding-bottom: 1rem;
+   }
+    .search-input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    float:left;
+    width: 70%;
+    background:#ffffff;
+    border-radius: 15px;
+}
+.search-button{
+ float: left;
+ width: 20%;
+ padding: 10px;
+ background: rgb(14, 19, 15);
+  color: white;
+ font-size: 17px;
+ border: 1px solid #ddd;
+ border-left: none;
+ cursor: pointer;
+ letter-spacing: 2px;
+ border-radius: 15px;
+}
+.search-button:hover{
+    background-color: #020607;
+    transition: all 0.5s ease;
+}
+
+
+.button-container{
+    margin: 0;
+    float: right;
+    padding: 1rem 0 2rem 0;
+
+    
+}
+.button-container a {
+ float: left;
+ border:1px solid rgb(35, 48, 38);
+ background: rgb(10, 197, 67);
+ padding: 8px 10px 8px 10px;
+    color: white;
+ text-decoration: none;
+ letter-spacing: 2px;
+ border-radius: 15px;
+}
+.button-container a:hover {
+ background: rgb(6, 77, 112);
+transition: all 0.5s ease;
+}
+.button-view {
+    border: none;
+    background: rgb(2, 165, 7);
+     color: white;
+    text-decoration: none;
+    padding: 6px 9px 3px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.button-view:hover{
+    background: rgb(12, 20, 24);
+transition: all 0.5s ease;
+}
+.button-danger{
+    float: left;
+    background: rgb(233, 18, 18);
+     padding: 8px 10px 13px 10px;
+     color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border: none;
+   border-radius: 15px;
+   }
+   .button-danger:hover{
+       background: #06589b;
+       transition: all 0.5s ease-in-out;
+   }
+   
+
+
+
+/* tHIS IS ADD fORM*/
+
+.add-container{
+    margin: 0 10px;
+    padding-top: 2rem;
+}
+.add-container input,
+.add-container select{
+    display:block;
+}
+
+.add-container input,
+.add-container select {
+    font-size: 22px;
+width:300px;
+padding:5px;
+border:3px solid #21b93a;
+border-radius: 10px;
+color: #2fb11f;
+margin: auto;
+}
+.add-container{
+    font-size: 22px;
+    text-align: center;
+   
+}
+.add-container input[type="submit"]{
+    width: 300px;
+    letter-spacing: 5px;
+    border-radius:100px;
+    margin-top:2rem;
+    font-size: 32px;
+    padding: 1rem;
+    background-color: rgb(2 ,165, 26);
+    border: none;
+      color: white;
+    cursor: pointer
+}
+.add-container input[type="submit"]:hover{
+    background: rgb(29, 203 ,146);
+    transition: all 0.5s ease;
+}
+    #bgform-details{
+            background-color: #FFE5B4;
+    }
+
+
+/*Picture for details*/
+.image-details{
+        width: 200px;
+      
+        
+}
